@@ -24,10 +24,16 @@ Currently working with C / C++ and the WDK.
 
 ## Focus areas
 
-- NT kernel internals — SSDT, EPROCESS, PEB, TEB
-- Kernel driver development (WDK)
-- Native API — undocumented `Nt*` / `Zw*` syscalls
-- x64 Windows memory model and process creation mechanics
+- NT kernel internals — SSDT, EPROCESS, KTHREAD, PEB, TEB, KPCR
+- Kernel driver development (WDK) — DriverEntry, I/O dispatch, pool allocations
+- Native API — undocumented `Nt*` / `Zw*` syscalls, syscall index resolution
+- SSDT hooking and inline hooking techniques
+- x64 Windows memory model — VAD trees, section objects, process address space
+- Process and thread internals — `NtCreateUserProcess`, `PS_CREATE_INFO`, `PS_ATTRIBUTE_LIST`
+- PE format internals — export directory, relocation, image mapping
+- Malware research and analysis — behavioral analysis, anti-debug techniques, PEB manipulation
+- Anti-analysis bypass — `BeingDebugged`, `NtGlobalFlag`, heap flags, timing checks
+- Kernel debugging — WinDbg, live kernel debug, crash dump analysis (BSOD triage)
 
 ---
 
