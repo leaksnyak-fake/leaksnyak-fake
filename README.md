@@ -18,7 +18,7 @@ Currently working with C / C++ and the WDK.
 
 ## Current projects
 
-- **[parental_control_dev](https://github.com/leaksnyak-fake/ring0exec)** — kernel-mode process spawner via SSDT-resolved `NtCreateUserProcess`
+- **[ring0exec](https://github.com/leaksnyak-fake/ring0exec)** — kernel-mode process spawner via SSDT-resolved `NtCreateUserProcess`
 
 ---
 
